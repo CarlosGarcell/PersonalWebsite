@@ -1,0 +1,338 @@
+html {
+}
+
+body {
+	overflow: auto;
+	height: 100%;
+	width: 100%;
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+.header {
+	z-index: 0;
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.page-header-local {
+	position: absolute;
+	z-index: 2;
+	margin-left: 2%;
+	margin-top: 20%;
+	font-weight: bolder;
+}
+
+.page-header h1 {
+	color: #FFF;
+	font-weight: bolder;
+	font-size: 2em;
+}
+
+.page-header small {
+	color: #FFF;
+	font-weight: lighter;
+}
+
+.masthead h1 {
+	color: #FFF;
+	text-align: center;
+	font-family: inherit;
+	font-size: 2em;
+	font-weight: lighter;
+}
+
+.backstretch {
+	overflow: hidden;
+	position: absolute;
+	filter: url(../svg/blur.svg#blur);
+}
+
+.backstretch img {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	max-height: none;
+	max-width: none;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	-webkit-filter: blur(10px); /* Safari, Opera & Chrome blur */
+	filter: url(../svg/blur.svg#blur); /* Firefoz blur */
+	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10'); /* IE 4-9 blur */
+}
+
+.welcome {
+	position: absolute;
+	margin: 45% 0% 0% 15%;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.welcome-wrapper {
+	margin: 0;
+}
+
+.welcome-img img {
+	display: block; 
+	margin: 0px auto;
+	border-radius: 50%;
+	max-width: 50%;
+}
+
+.welcome-img figcaption {
+	font-weight: lighter;
+	font-family: inherit;
+	font-size: 2em;
+	color: #FFF;
+}
+
+.pages-links {
+	list-style: none;
+	padding-top: 20px;
+	margin-left: 1%;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.pages-links li {
+	display: inline;
+	text-align: center;
+	margin-right: 9%;
+	margin-bottom: 10px;
+	font-family: inherit;
+	font-weight: lighter;
+	font-size: 1.8em;
+}
+
+.about {
+	text-align: center;
+	color: #FFF;
+	font-family: inherit;
+	font-weight: lighter;
+}
+
+.background {
+	height: 100%;
+	width: 100%;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+.about img {
+	max-width: 50%;
+	margin-top: 65px;
+	text-align: center;
+}
+
+.about h1 {
+	font-family: inherit;
+	font-weight: lighter;
+	font-size: 2.2em;
+	padding-left: 2%;
+}
+
+.about p {
+	font-size: 1.2em;
+	text-align: left;
+}
+
+.about a {
+	color: #f4726d;
+	font-weight: bolder;
+}
+
+.technologies {
+	text-align: center;
+	content: " ";
+}
+
+.technologies h1 {
+	color: #FFF;
+	font-family: inherit;
+	font-weight: lighter;
+	font-size: 2.2em;
+
+}
+
+.technologies h3 {
+	color: #FFF;
+	font-weight: 300 !important;
+	font-size: 1.2em;
+}
+
+.back-end img {
+	max-width: 50%;
+}
+
+.front-end {
+	padding-bottom: 50px;
+}
+
+.front-end img {
+	max-width: 60%;
+}
+
+#laravel-logo {
+	margin-top: 15%;
+	display: inherit;
+}
+
+#mysql-logo, #php-logo {
+	display: inherit;
+}
+
+#finder-icon {
+	max-width: 50%;
+}
+
+#html5-logo, #css3-logo {
+	margin-left: -4%;
+}
+
+.front-end img {
+	margin-top: 10px;
+}
+
+.portfolio {
+	position: relative;
+	color: #fff;
+	padding-bottom: 20%;
+}
+
+.portfolio h3, p {
+	font-size: 1.2em;
+}
+
+.portfolio a {
+	text-decoration: none;
+	font-weight: normal;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	transition: 0.4s ease-out;
+}
+
+.portfolio a:hover {
+	color: #000;
+	background-color: #fff;
+	transition: 0.4s ease-in;
+}
+
+.contact {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 20%;
+}
+
+.contact-headers {
+	margin-left: 16%;
+	text-align: center;
+	color: #fff;
+}
+
+.contact-form {
+	margin-top: 8%;
+	max-width: 80%;
+	font-family: inherit;
+	text-align: center;
+	margin-left: 4%;
+}
+
+.form-horizontal {
+	margin-left: 12%;
+}
+
+.form-control {
+	border-radius: 0px;
+	background-color: transparent;
+	color: #fff;
+	transition: .5s ease-in;
+}
+
+.contact select {
+	color: #000;
+	border-radius: 0px solid;
+}
+
+.form-control:focus {
+	color: #000;
+	background-color: #fff;
+	transition: .5s ease-in;
+	box-shadow: none !important;
+}
+
+.noshadow {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important
+}
+
+#send-btn {
+	border: 1px transparent;
+	background-color: transparent;
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+#send-btn:focus {
+	border: 0px #fff !important;
+	background-color: #fff;
+	border-color: #fff !important;
+	color: #000;
+	transition: .5s ease-in;
+}
+
+.form-control:hover {
+	color: #000;
+	border-radius: 1px black;
+	background-color: #fff;
+	transition: .5s ease-in;
+}
+
+.contact ul {
+	text-align: center;
+	list-style: none;
+	display: inline-block;
+	margin-left: -45px;
+}
+
+.contact img {
+	max-width: 60%;
+}
+
+.alert {
+	background-color: transparent;
+	color: #fff;
+	margin-top: 2%;
+	position: relative;
+	width: 100%;
+	border-radius: 0px;
+	border-color: #fff;
+	margin-bottom: -5%;
+}
+
+::-webkit-input-placeholder {
+	color: #fff;
+}
+
+:-moz-placeholder {
+	color: #fff;
+}
+
+::-moz-placeholder {
+	color: #FFF;
+}
+
+:-ms-input-placeholder {
+	color: #fff;
+}
+
+#copyEmail {
+	color: #fff;
+	font-size: 1.3em;
+}
