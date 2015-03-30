@@ -1,6 +1,10 @@
 @extends('master')
 
 	@section('content')
+	
+	<head>
+		<link rel="stylesheet" type="text/csss" href="contact.css">
+	</head>
 
 	<div class="contact header">
 		<div class="container">

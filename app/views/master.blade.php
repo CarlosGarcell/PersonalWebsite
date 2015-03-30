@@ -29,10 +29,10 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 
 		<!-- Animate.css import -->
-		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css">
 
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
 		<!-- Homepage CSS -->
 		<link rel="stylesheet" type="text/css" href="css/master.css">
@@ -40,8 +40,11 @@
 		<!-- Latest 1.x jQuery version -->
 		<script src="js/jquery-1.11.2.min.js"></script>
 
-		<!-- Latest compiled and minified JavaScript -->
+		<!-- Bootstrap minified JavaScript -->
 		<script src="js/bootstrap.min.js"></script>
+
+		<!-- Tab Icon -->
+		<link rel="shortcut icon" type="image/ico" href="/carlos.ico">
 
 	</head>
 

@@ -11,9 +11,10 @@
 				<div class="col-md-8 description">										
 					<h1>A little about me...</h1>
 					<p>Hello, I'm Carlos, a web developer and software engineer from Venezuela.</p>
-					<p>From age 5 onwards, I became deeply interested in technology, and after watching my dad code for several years, it became clear what I wanted to become in life.</p>
-					<p>That's why most of my time is spent on improving my programming skills, becoming acquainted with the newest technologies on web development, coding or just getting up-to-date on the latest developments of the tech world.</p>
-					<!-- <p>Huge fan of PHP, I must say that having the chance to work with <a href="http://www.laravel.com">Laravel</a> is the most exciting thing that can happen to any developer that relies on PHP as its go-to language.</p> -->
+					
+					<p>From age 5 onwards, I became deeply interested in technology, and after watching my dad code for several years, it became clear what I wanted to 					become in life.</p>
+					
+					<p>That's why most of my time is spent on improving my programming skills, becoming acquainted with the newest technologies on web development, 					coding or just getting up-to-date on the latest developments of the tech world.</p>
 				</div>
 			</div>
 			<div class="row technologies-header">
