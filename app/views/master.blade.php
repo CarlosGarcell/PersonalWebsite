@@ -42,6 +42,9 @@
 
 		<!-- Bootstrap minified JavaScript -->
 		<script src="js/bootstrap.min.js"></script>
+		
+		<!-- Backstretch import -->
+		<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
 
 		<!-- Tab Icon -->
 		<link rel="shortcut icon" type="image/ico" href="/carlos.ico">
@@ -49,9 +52,6 @@
 	</head>
 
 	<body>
-
-		<!-- Implementation of master -->
-		<!-- <script type="text/javascript" src="js/master.js"></script> -->
 
 		<div id="wrap">
 			@yield('content')
@@ -81,12 +81,6 @@
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
-
-		<!-- Backstretch import -->
-		<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
-
-		<!-- Implementation of master -->
-		<script type="text/javascript" src="js/master.js"></script>
 
 		<!-- Easy Scroll import -->
 		<!-- <script type="text/javascript" src="js/easy_scroll.js"></script> -->

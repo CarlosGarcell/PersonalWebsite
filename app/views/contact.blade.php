@@ -1,23 +1,15 @@
 @extends('master')
 
-	<head>
-
-		<script type="text/javascript">
-
-			$(function() {
-				$(".contact").backstretch("images/my-keyboard.jpg");
-			});
-
-		</script>
-
-	</head>
-
 	@section('content')
 	
-	<head>
-		<link rel="stylesheet" type="text/csss" href="contact.css">
-	</head>
+	<script type="text/javascript">
+	
+		$(function() {		
+			$(".contact").backstretch("images/my-keyboard.jpg");	
+		});
 
+	</script>
+	
 	<div class="contact header">
 		<div class="container">
 			<div class="alert alert-success" role="alert" id="error-alert">{{ $errors->first('inputName', ':message</br>') }}{{ $errors->first('inputEmail', ':message</br>') }}{{ $errors->first('inputSubject', ':message</br>') }}{{ $errors->first('inputDescription', ':message') }}</div>
@@ -68,16 +60,16 @@
 			<div class="row">
 				<ul>
 					<li class="col-xs-3">
-						<a href="https://twitter.com/Carlos_Garcell" target="_blank"><img src="images/twitter.png" ></a>
+						<a href="https://twitter.com/Carlos_Garcell" target="_blank"><img src="images/twitter.png"></a>
 					</li>
 					<li class="col-xs-3">
-						<a href="https://plus.google.com/+CarlosAlfredoGarcellMelero/posts" target="_blank"><img src="images/google+.png" ></a>
+						<a href="https://plus.google.com/+CarlosAlfredoGarcellMelero/posts" target="_blank"><img src="images/google+.png"></a>
 					</li>
 					<li class="col-xs-3">
-						<a href="https://www.linkedin.com/pub/carlos-garcell/49/583/aa9" target="_blank"><img src="images/linkedin.png" ></a>
+						<a href="https://www.linkedin.com/pub/carlos-garcell/49/583/aa9" target="_blank"><img src="images/linkedin.png"></a>
 					</li>
 					<li class="col-xs-3">
-						<a href="https://github.com/CarlosGarcell" target="_b"><img src="images/github.png" ></a>
+						<a href="https://github.com/CarlosGarcell" target="_b"><img src="images/github.png"></a>
 					</li>
 				</ul>
 			</div>
@@ -89,7 +81,7 @@
 		if($('.alert').text() === "") {
 			$('.alert').hide();
 		}else {
-			$('.alert').fadeOut(7000);
+			$('.alert').delay(5000).slideUp(300);
 		}
 
 	</script>

@@ -1,18 +1,14 @@
 @extends('master')
 
-	<head>
-
-		<script type="text/javascript">
-
-			$(function() {
-				$(".portfolio").backstretch("images/macbook-notes.jpg");
-			});
-
-		</script>
-
-	</head>
-
 	@section('content')
+	
+	<script type="text/javascript">
+
+		$(function() {
+			$(".portfolio").backstretch("images/macbook-notes.jpg");
+		});
+
+	</script>
 
 	<div class="portfolio header">
 		<div class="container">

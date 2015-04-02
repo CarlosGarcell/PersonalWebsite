@@ -1,18 +1,14 @@
 @extends('master')
 
-	<head>
-
+	@section('content')
+	
 		<script type="text/javascript">
 
 			$(function() {
-				$(".about-background").backstretch("images/work_in_progress-wallpaper-1920x1080.jpg");
+				$(".header").backstretch("images/homeimg.jpg");
 			});
 
 		</script>
-
-	</head>
-
-	@section('content')
 
 		<div class="home-header header">
 			<header class="page-header page-header-local fadeInLeft animated">

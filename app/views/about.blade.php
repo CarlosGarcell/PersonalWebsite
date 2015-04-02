@@ -1,24 +1,20 @@
 @extends('master')
 
-	<head>
-
-		<script type="text/javascript">
-
-			$(function() {
-				$(".about-background").backstretch("images/work_in_progress-wallpaper-1920x1080.jpg");
-			});
-
-		</script>
-
-	</head>
-
 	@section('content')
+	
+	<script type="text/javascript">
+
+		$(function() {
+			$(".about-background").backstretch("images/work_in_progress-wallpaper-1920x1080.jpg");
+		});
+
+	</script>
 
 	<div class="about-background background">
 		<div class="container">
 			<div class="row about fadeInDown animated">
 				<div class="col-md-4">	
-					<img src="https://s.gravatar.com/avatar/97175707ce2f7d148beb2ecce6dcaf35?s=300" class="img-circle">					
+					<img src="/images/carlos_shrunk.jpg" class="img-circle">					
 				</div>
 				<div class="col-md-8 description">										
 					<h1>A little about me...</h1>
