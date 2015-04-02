@@ -1,5 +1,17 @@
 @extends('master')
 
+	<head>
+
+		<script type="text/javascript">
+
+			$(function() {
+				$(".contact").backstretch("images/my-keyboard.jpg");
+			});
+
+		</script>
+
+	</head>
+
 	@section('content')
 	
 	<head>

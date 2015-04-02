@@ -51,7 +51,7 @@
 	<body>
 
 		<!-- Implementation of master -->
-		<script type="text/javascript" src="js/master.js"></script>
+		<!-- <script type="text/javascript" src="js/master.js"></script> -->
 
 		<div id="wrap">
 			@yield('content')
