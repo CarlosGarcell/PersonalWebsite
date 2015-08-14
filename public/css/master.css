@@ -51,11 +51,11 @@ body {
 .backstretch {
 	overflow: hidden;
 	position: absolute;
-	filter: url(../svg/blur.svg#blur);
+	/*filter: url(../svg/blur.svg#blur);*/
 }
 
 .backstretch img {
-	overflow: hidden;
+	/*overflow: hidden;
 	height: 100%;
 	width: 100%;
 	max-height: none;
@@ -64,7 +64,7 @@ body {
 	padding: 0px;
 	left: 0px;
 	top: 0px;
-	position: absolute;
+	position: absolute;*/
 	/*-webkit-filter: blur(10px);*/ /* Safari, Opera & Chrome blur */
 	/*filter: url(../svg/blur.svg#blur);*/ /* Firefoz blur */
 	/*filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');*/ /* IE 4-9 blur */
