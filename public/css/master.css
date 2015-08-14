@@ -9,6 +9,10 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+.alert .alert-success h4 {
+	z-index: 99999;
+}
+
 .header {
 	z-index: 0;
 	position: absolute;
@@ -61,9 +65,9 @@ body {
 	left: 0px;
 	top: 0px;
 	position: absolute;
-	-webkit-filter: blur(10px); /* Safari, Opera & Chrome blur */
-	filter: url(../svg/blur.svg#blur); /* Firefoz blur */
-	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10'); /* IE 4-9 blur */
+	/*-webkit-filter: blur(10px);*/ /* Safari, Opera & Chrome blur */
+	/*filter: url(../svg/blur.svg#blur);*/ /* Firefoz blur */
+	/*filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');*/ /* IE 4-9 blur */
 }
 
 .welcome {

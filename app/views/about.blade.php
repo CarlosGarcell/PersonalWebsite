@@ -1,14 +1,6 @@
 @extends('master')
 
 	@section('content')
-	
-	<script type="text/javascript">
-
-		$(function() {
-			$(".about-background").backstretch("images/work_in_progress-wallpaper-1920x1080.jpg");
-		});
-
-	</script>
 
 	<div class="about-background background">
 		<div class="container">
@@ -66,4 +58,12 @@
 			</div>						
 		</div>
 	</div>
+
+	<script type="text/javascript">
+
+		$(function() {
+			$(".about-background").backstretch("images/work_in_progress-wallpaper-1920x1080.jpg");
+		});
+
+	</script>
 @stop

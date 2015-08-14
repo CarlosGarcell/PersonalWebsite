@@ -40,12 +40,6 @@
 		<!-- Latest 1.x jQuery version -->
 		<script src="js/jquery-1.11.2.min.js"></script>
 
-		<!-- Bootstrap minified JavaScript -->
-		<script src="js/bootstrap.min.js"></script>
-		
-		<!-- Backstretch import -->
-		<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
-
 		<!-- Tab Icon -->
 		<link rel="shortcut icon" type="image/ico" href="/carlos.ico">
 
@@ -76,6 +70,7 @@
 		        <li><a href="/">Home</a></li>
 		        <li><a href="about">About</a></li>
 		        <li><a href="portfolio">Portfolio</a></li>
+		        <li><a href="blog">Blog</a></li>
 		        <li><a href="contact">Contact</a></li>
 		      </ul>		        		  
 		    </div><!-- /.navbar-collapse -->
@@ -84,5 +79,11 @@
 
 		<!-- Easy Scroll import -->
 		<!-- <script type="text/javascript" src="js/easy_scroll.js"></script> -->
+
+		<!-- Bootstrap minified JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
+		
+		<!-- Backstretch import -->
+		<script type="text/javascript" src="/js/jquery.backstretch.min.js"></script>
 	</body>
 </html>

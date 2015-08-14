@@ -57,7 +57,7 @@
 				</div>
 			</div>
 			<hr>
-			<div class="row">
+			<div class="col-md-12 row">
 				<ul>
 					<li class="col-xs-3">
 						<a href="https://twitter.com/Carlos_Garcell" target="_blank"><img src="images/twitter.png"></a>
@@ -80,7 +80,7 @@
 
 		if($('.alert').text() === "") {
 			$('.alert').hide();
-		}else {
+		} else {
 			$('.alert').delay(5000).slideUp(300);
 		}
 

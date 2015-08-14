@@ -43,6 +43,7 @@
 	"minimum-stability": "stable",
 	"require-dev": {
 		"way/generators": "~2.0",
-		"guzzlehttp/guzzle": "~4.0"
+		"guzzlehttp/guzzle": "~4.0",
+		"jenssegers/mongodb": "2.1.5"
 	}
 }
